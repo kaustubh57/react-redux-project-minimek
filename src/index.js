@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+import 'semantic-ui-css/semantic.css';
 
-import './index.css';
 import configureStore from './app/store/configureStore';
 
 const store = configureStore();
