@@ -5,11 +5,11 @@ import {
 } from 'semantic-ui-react';
 
 import './App.css';
-import TabBarContainer from "./features/tabs/TabBarContainer";
 import UnitInfo from "./features/unitInfo/UnitInfo";
 import Pilots from "./features/pilots/Pilots";
 import Mechs from "./features/mechs/Mechs";
 import UnitOrganization from "./features/unitOrganization/UnitOrganization";
+import TabBarContainer from './features/tabs/TabBar';
 
 
 class App extends Component {
